@@ -1,0 +1,11 @@
+<nav>
+  <ul>
+    {% for item in site.data.navigation %}
+      <li class="nav-button">
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+      </li>
+    {% endfor %}
+    <a style="margin-left:auto"></a>
+    <li class="nav-button"><a href="/feed.xml">rss</a></li>
+  </ul>
+</nav>
