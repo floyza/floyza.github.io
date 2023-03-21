@@ -38,6 +38,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+theme: null
 # plugins:
 #   - jekyll-feed
 # Exclude from processing.
